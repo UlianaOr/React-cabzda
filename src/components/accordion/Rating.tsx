@@ -1,4 +1,6 @@
 import React from "react";
+import Star from "./Star";
+
 
 function Rating (){
     console.log ("Rating rendering")
@@ -18,4 +20,4 @@ function Rating (){
 
 
 
-export default Rating
+export default Rating;
