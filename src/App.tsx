@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Accordion from './components/accordion/Accordion';
 
 function App() {
     return (
@@ -13,18 +14,6 @@ function App() {
     )
 }
 
-function Accordion () {
-    console.log ("Accordion rendering")
-    return (
-        <>
-        <h3>Menu</h3>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-        </>
-    )
-}
+
 
 export default App;
