@@ -3,9 +3,7 @@ import React from "react";
 function Star () {
     console.log ("Star rendering")
     return (
-        <>
-        star
-        </>
+        <span> <b> star </b> </span>
     )
 }
 
