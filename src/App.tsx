@@ -10,8 +10,7 @@ function App() {
     <div>
 
 
-        <input/>
-        <input value={"yo"} type = {"password"}/>
+        
 
         
         <AppTitle/>
