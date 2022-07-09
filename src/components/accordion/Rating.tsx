@@ -2,7 +2,7 @@ import React from "react";
 import Star from "./Star";
 
 
-function Rating () {
+function Rating (props: any) {
     console.log ("Rating rendering")
     return (
         <div>

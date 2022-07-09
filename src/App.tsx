@@ -15,9 +15,11 @@ function App() {
 
         
         <AppTitle/>
-        <Rating/>
+        Article 1
+        <Rating value ={3}/>
         <Accordion/>
-        <Rating/>
+        Article2 
+        <Rating value = {4}/>
         <Star/>
 
 
