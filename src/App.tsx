@@ -10,9 +10,7 @@ function App() {
     <div>
 
 
-        
-
-        
+    
         <AppTitle/>
         Article 1
         <Rating value ={3}/>
