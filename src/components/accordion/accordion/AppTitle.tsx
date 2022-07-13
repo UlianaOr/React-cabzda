@@ -1,9 +1,9 @@
 import React from "react";
 
-function AppTitle () {
+function PageTitle (props: any) {
     console.log ("AppTitle rendering")
-    return <>This is App component</>
+    return <>{props.title}</>
 }
 
 
-export default AppTitle
+export default PageTitle
