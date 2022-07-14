@@ -13,6 +13,7 @@ import React from "react"
 
 
 function AccordionTitle (props: any) {
+    
     console.log ("AccordionTitle rendering")
     return (
         

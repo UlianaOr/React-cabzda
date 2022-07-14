@@ -14,9 +14,9 @@ function App() {
         <PageTitle title = {"Отобразить текст внутри!"}/>
         Article 1
         <Rating value ={3}/>
-        <Accordion titleValue = {"Menu"}/>
-        <Accordion title = {"Users"}/>
-        Article2 
+        {/*<Accordion titleValue = {"Menu"}/>
+        <Accordion titleValue = {"Users"}/>
+    Article2 */}
         <Rating value = {0}/>
         <Rating value = {1}/>
         <Rating value = {2}/>
