@@ -8,7 +8,8 @@ function Rating(props: RatingPropsType) {
     console.log("Rating rendering")
 
 
-    if (props.value === 1) {
+    if (props.value === 1)
+    {
         return (
             <div>
                 <Star selected={true} />
