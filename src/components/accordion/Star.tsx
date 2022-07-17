@@ -1,6 +1,11 @@
+
 import React from "react";
 
-function Star (props: any ) {
+type StartPropsType = {
+    selected : boolean
+}
+
+function Star (props: StartPropsType ) {
     console.log ("Star rendering")
     if (props. selected === true) {
         return <span> <b> star </b> </span>

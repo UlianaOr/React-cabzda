@@ -1,6 +1,10 @@
 import React from "react"
 
- function Accordion (props: any) {
+type AccordionPropsType = {
+    titleValue : string
+}
+
+ function Accordion (props: AccordionPropsType) {
     console.log ("Accordion rendering")
     return (
         <>
@@ -11,8 +15,12 @@ import React from "react"
     )
 }
 
+type AccordionTitlePropsType = {
+    title : string
+}
 
-function AccordionTitle (props: any) {
+
+function AccordionTitle (props: AccordionTitlePropsType) {
     
     console.log ("AccordionTitle rendering")
     return (
