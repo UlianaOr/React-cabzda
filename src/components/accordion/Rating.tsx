@@ -6,6 +6,16 @@ type RatingPropsType = {
 }
 function Rating(props: RatingPropsType) {
     console.log("Rating rendering")
+     return (
+        <div>
+        <Star selected={true} />
+        <Star selected={false} />
+        <Star selected={false} />
+        <Star selected={false} />
+        <Star selected={false} />
+
+    </div>
+     )
 
 
     if (props.value === 1)
