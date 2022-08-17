@@ -4,14 +4,16 @@ import Accordion from './components/accordion/Accordion';
 import PageTitle from './components/accordion/accordion/AppTitle';
 import Rating from './components/accordion/Rating';
 import Star from './components/accordion/Star';
+import OnOff from './components/accordion/accordion/OnOff';
 
 function App() {
     return (
     <div>
+        <OnOff on = {true}/>
 
 
         
-        <PageTitle title = {"Отобразить текст внутри!"}/>
+        {/*<PageTitle title = {"Отобразить текст внутри!"}/>
         Article 1
         <Rating value ={3}/>
         <Accordion titleValue = {"Menu"} collapsed ={true}/>
@@ -23,7 +25,7 @@ function App() {
         <Rating value = {3}/>
         <Rating value = {4}/>
         <Rating value = {5}/>
-        <Star selected= {false}/>
+    <Star selected= {false}/>*/}
 
 
 

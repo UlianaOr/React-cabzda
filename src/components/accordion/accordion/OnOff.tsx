@@ -6,20 +6,36 @@ type PropsType = {
     on: boolean
 }
 
-const onStyle = {};
-const offStyle = {};
-const indicatorStyle = {
+const onStyle = {
     widht: "30px",
-    height: "30px",
-    borderRadius: "15px",
-    border: "1px solid black"
+    height: "20px",
+    display: "inline-block",
+    border: "1px solid black",
+    padding: "2px"
+};
+const offStyle = {
+    widht: "30px",
+    height: "20px",
+    display: "inline-block",
+    border: "1px solid black",
+    marginLeft: "5px",
+    padding: "2px"
+};
+const indicatorStyle = {
+    widht: "10px",
+    height: "10px",
+    borderRadius: "5px",
+    border: "1px solid black",
+    display: "inline-block",
+    marginLeft: "5px",
+    padding: "2px"
 };
 
 
 function OnOff (props: PropsType) {
     return <div>
-        <div></div>
-        <div></div>
+        <div style={onStyle}>On</div>
+        <div style={offStyle}>Off</div>
         <div style = {indicatorStyle}></div>
 
     </div>
