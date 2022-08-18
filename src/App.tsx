@@ -5,11 +5,14 @@ import PageTitle from './components/accordion/accordion/AppTitle';
 import Rating from './components/accordion/Rating';
 import Star from './components/accordion/Star';
 import OnOff from './components/accordion/accordion/OnOff';
+import { type } from 'os';
 
-function App() {
+function App(props: any) {
+
+    console.log ("App rendering")
     return (
     <div>
-        <OnOff on = {true}/>
+        <OnOff on= {false}/>
 
 
         
@@ -34,6 +37,12 @@ function App() {
     )
 }
 
+type PageTitlePropsType = {
+    title: string
+}
 
+function PageTitle (props: PageTitlePropsType) { 
+
+}
 
 export default App;

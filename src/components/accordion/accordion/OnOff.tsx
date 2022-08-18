@@ -1,4 +1,4 @@
-import { type } from "os";
+
 import React from 'react';
 
 
@@ -6,7 +6,7 @@ type PropsType = {
     on: boolean
 }
 
-function OnOff (props: PropsType) {
+ function OnOff (props: PropsType) {
 
 const onStyle = {
     widht: "30px",
@@ -14,7 +14,7 @@ const onStyle = {
     display: "inline-block",
     border: "1px solid black",
     padding: "2px",
-    backgroundColor: props.on ? "green" : "white"
+    backgroundColor: "green" 
 };
 const offStyle = {
     widht: "30px",
@@ -37,15 +37,15 @@ const indicatorStyle = {
 };
 
 
-function OnOff (props: PropsType) {
-    return <div>
-        <div style={onStyle}>On</div>
-        <div style={offStyle}>Off</div>
-        <div style = {indicatorStyle}></div>
+ 
+     return <div>
+         <div style={onStyle}>On</div>
+         <div style={offStyle}>Off</div>
+         <div style = {indicatorStyle}></div>
 
-    </div>
+     </div>
 
-}
+ 
 }
 
 export default OnOff;
