@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import Accordion from './components/accordion/Accordion';
-import PageTitle from './components/accordion/accordion/AppTitle';
 import Rating from './components/accordion/Rating';
 import Star from './components/accordion/Star';
 import OnOff from './components/accordion/accordion/OnOff';
-import { type } from 'os';
+
 
 function App(props: any) {
 
@@ -42,7 +41,10 @@ type PageTitlePropsType = {
 }
 
 function PageTitle (props: PageTitlePropsType) { 
+    console.log ("PageRendering")
+    return <h1>{props.title}</h1>
 
 }
 
 export default App;
+
