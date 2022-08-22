@@ -15,7 +15,7 @@ function App(props: any) {
 
 
         
-        {/*<PageTitle title = {"Отобразить текст внутри!"}/>
+        <PageTitle title = {"Отобразить текст внутри!"}/>
         Article 1
         <Rating value ={3}/>
         <Accordion titleValue = {"Menu"} collapsed ={true}/>
@@ -27,7 +27,7 @@ function App(props: any) {
         <Rating value = {3}/>
         <Rating value = {4}/>
         <Rating value = {5}/>
-    <Star selected= {false}/>*/}
+    <Star selected= {false}/>
 
 
 
