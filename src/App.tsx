@@ -11,6 +11,8 @@ function App(props: any) {
     console.log ("App rendering")
     return (
     <div>
+
+        <UncontrolledAccordion titleValue ={Menu}/>
         
 
 
