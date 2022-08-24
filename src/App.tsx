@@ -3,7 +3,7 @@ import './App.css';
 import Accordion from './components/accordion/Accordion';
 import Rating from './components/accordion/Rating';
 import Star from './components/accordion/Star';
-import OnOff from './components/accordion/accordion/OnOff';
+
 
 
 function App(props: any) {
@@ -11,7 +11,7 @@ function App(props: any) {
     console.log ("App rendering")
     return (
     <div>
-        <OnOff on= {false}/>
+        
 
 
         
