@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 import Accordion from './components/accordion/Accordion';
-import Rating from './components/accordion/Rating';
+import Rating from './components/accordion/UncontrolledRating';
 import Star from './components/accordion/Star';
+import  UncontrolledAccordion from './components/accordion/Accordion'
+import UncontrolledRating from './components/accordion/UncontrolledRating';
 
 
 
@@ -19,8 +21,11 @@ function App(props: any) {
         
         <PageTitle title = {"Отобразить текст внутри!"}/>
         Article 1
-        <Rating value ={3}/>
-        <Accordion titleValue = {"Menu"} collapsed ={true}/>
+        <UncontrolledRating />
+
+
+
+        {/*<Accordion titleValue = {"Menu"} collapsed ={true}/>
         <Accordion titleValue = {"Users"} collapsed = {false}/>
     Article2 
         <Rating value = {0}/>
@@ -29,7 +34,7 @@ function App(props: any) {
         <Rating value = {3}/>
         <Rating value = {4}/>
         <Rating value = {5}/>
-    <Star selected= {false}/>
+    <Star selected= {false}/>*/}
 
 
 

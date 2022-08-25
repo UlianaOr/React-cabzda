@@ -4,11 +4,12 @@ import React, { useState } from "react"
 function UncontrolledAccordion (props:AccordionPropsType) {
     console.log ("Accordion rendering")
 
-    let [collapsed, setCollopsed] = useState();
+    let [collapsed, setCollopsed] = useState(false);
 
     return 
     <div>
-        <AccordionTitle title= {props.titleValue}/> <button>TOGGLE</button>
+        <AccordionTitle title= {props.titleValue}/> 
+        <button onClick={() => {setCollopsed (!collapsed)}}>TOGGLE</button>
         { !collapsed && <AccordionBody/>}
         
     </div>
@@ -62,4 +63,4 @@ function AccordionBody () {
 }
 
 
-export default Accordion;
+export default UncontrolledAccordion;
