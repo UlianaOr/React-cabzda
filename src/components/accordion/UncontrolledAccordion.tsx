@@ -1,6 +1,12 @@
 import React, { useState } from "react"
 
 
+type AccordionPropsType = {
+    titleValue : string
+    //collapsed : boolean
+}
+
+
 function UncontrolledAccordion (props:AccordionPropsType) {
     console.log ("Accordion rendering")
 
@@ -15,10 +21,8 @@ function UncontrolledAccordion (props:AccordionPropsType) {
     </div>
 }
 
-type AccordionPropsType = {
-    titleValue : string
-    //collapsed : boolean
-}
+
+
 
  /*function Accordion (props: AccordionPropsType) {
     console.log ("Accordion rendering")
