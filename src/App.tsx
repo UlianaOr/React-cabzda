@@ -3,7 +3,7 @@ import './App.css';
 
 import Rating from './components/accordion/UncontrolledRating';
 import Star from './components/accordion/Star';
-import  UncontrolledAccordion from './components/accordion/UncontrolledAccordion'
+import  UncontrolledAccordion from './components/accordion/Accordion'
 import UncontrolledRating from './components/accordion/UncontrolledRating';
 
 
@@ -14,7 +14,7 @@ function App(props: any) {
     return (
     <div>
 
-        <UncontrolledAccordion titleValue ={Menu}/>
+        
         
 
 
@@ -22,6 +22,7 @@ function App(props: any) {
         
         Article 1
         <UncontrolledRating />
+        <Rating value = {3}/>
 
 
 
@@ -34,7 +35,7 @@ function App(props: any) {
         <Rating value = {0}/>
         <Rating value = {1}/>
         <Rating value = {2}/>
-        <Rating value = {3}/>
+        
         <Rating value = {4}/>
         <Rating value = {5}/>
     <Star selected= {false}/>*/}
